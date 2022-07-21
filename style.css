@@ -10,16 +10,16 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
-  background: url(./bg.jpg) center/cover;
+  background: url(./36f955e963a448e6.jpg) center/cover;
 }
 .app {
-  background-image: linear-gradient(to right, #ff758c 0%, #ff7eb3 100%);
+  background-image: linear-gradient(to right, rgb(169, 169, 169) 0%, #c0c0c0 100%);
   margin: 0 10px;
   padding: 24px 10px 10px;
   border-radius: 16px;
   width: 90%;
   max-width: 600px;
-  box-shadow: 3px 4px 10px 0px #a76666c2;
+  box-shadow: 3px 4px 10px 0px rgb(255, 144, 59);
 }
 #password-output {
   background: transparent;
@@ -34,7 +34,7 @@ input[type="range"] {
   -webkit-appearance: none;
   appearance: none;
   width: 160px;
-  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  background-image: linear-gradient(120deg, #ff0000 -60%, rgb(255, 144, 59) 100%);
   border-radius: 50px;
 }
 input[type="range"]::-webkit-slider-runnable-track {
@@ -50,8 +50,8 @@ input[type="range"]::-webkit-slider-thumb {
   height: 40px;
   background: linear-gradient(
     to bottom,
-    rgba(255, 255, 255, 0.65) 0%,
-    rgba(0, 0, 0, 0.95) 100%
+    rgb(0, 0, 0) 0%,
+    rgb(0, 0, 0) 100%
   );
   background-blend-mode: multiply, multiply;
   cursor: pointer;
@@ -97,19 +97,19 @@ label {
 }
 button {
   margin: 14px 0 20px;
-  background-image: linear-gradient(120deg, #d4fc79 0%, #96e6a1 100%);
+  background-image: linear-gradient(120deg, #ffffff 0%, #afafaf00 100%);
   padding: 10px 20px;
   border-radius: 150px;
-  border: 2px solid #accbee;
-  border-bottom: 3px solid yellow;
-  border-right: 3px solid yellow;
+  border: 2px solid #000000;
+  border-bottom: 3px solid rgb(255, 144, 59);
+  border-right: 3px solid rgb(0, 0, 0);
   transition: 0.2s;
   cursor: pointer;
 }
 button:hover {
-  border: 2px solid yellow;
-  border-bottom: 3px solid #accbee;
-  border-right: 3px solid #accbee;
+  border: 2px solid rgb(255, 144, 59);
+  border-bottom: 3px solid black;
+  border-right: 3px solid rgb(255, 144, 59);
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.32);
   transform: translateX(3px);
 }
